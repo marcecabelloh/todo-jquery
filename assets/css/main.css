@@ -1,0 +1,22 @@
+body{
+	background-color: beige;
+}
+
+.container{
+padding: 20px;
+width: 100%;
+margin: 0 auto;
+margin-top: 40px;
+background: white;
+
+}
+
+.btn{
+color:white;
+background-color: pink;
+}
+
+
+li:hover{
+  cursor: pointer;
+ }
