@@ -1,13 +1,15 @@
 body{
-	background-color: beige;
+	background-image: url("../img/fondo.jpg");
+	padding: 3% 0;
+	color: whitesmoke
 }
 
 .container{
+background-color: rgba(11, 3, 16,0.4);	
 padding: 20px;
 width: 100%;
 margin: 0 auto;
 margin-top: 40px;
-background: white;
 
 }
 
@@ -20,3 +22,14 @@ background-color: pink;
 li:hover{
   cursor: pointer;
  }
+
+ h2, p{
+ 	margin-left: 30px;
+ 	color: pink;
+ }
+
+[type="checkbox"]{/*para que se vea checkbox*/
+	position: absolute;
+    left: 30px;
+    opacity: 0.9;
+}
