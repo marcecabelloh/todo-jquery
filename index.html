@@ -8,7 +8,7 @@
 	  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
-	<!-- inicio nav -->
+	<!-- inicio nav (nav con materialize)-->
 	<nav>
     <div class="nav-wrapper">
       <a href="#" class="brand-logo center">To Do App</a>    
@@ -18,18 +18,22 @@
 	<!-- inicio añadir tareas -->
 
 	<div class="container">
-		<h2>Ingresa tu Tarea</h2>
-		<p><em>Ordena tu lista de tareas con solo un click.</em></p>
+		<div class="row">
+			<div col="s12 m12 l12 xl12">
+				<h2>Ingresa tu Tarea</h2>
+				<p><em>Ordena tu lista de tareas con solo un click.</em></p>
 
-		<form name="toDoList">
-			<input type="text" name="ListItem"/>
-		</form>
-    
-		<a class="waves-effect waves-light btn" id="button">Agrega tu tarea</a>
-		<br/>
-		<ol></ol>
+				<form name="toDoList">
+					<input type="text" name="ListItem" id="todo-list-item" placeholder="agrega tus tareas" />
+				</form>
 
-
+				<a class="waves-effect waves-light btn" id="button">Agrega tu tarea</a>
+				<br/>
+				<ol id="list-items"></ol>		
+			</div>
+			<div id="nuevo-div"></div><!-- div para agregar tarea -->
+		</div>
+	</div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
