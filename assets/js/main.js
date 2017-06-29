@@ -27,7 +27,7 @@ $(document).on('click' , '.delete' , function(){
     console.log(html);
     $(item).remove();
     $(".completed-items").append(html); //añadir completed items al html
-}
+}*/
 });
 
 
